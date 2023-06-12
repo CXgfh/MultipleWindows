@@ -1,13 +1,9 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 target 'MultipleWindows_Example' do
   pod 'MultipleWindows', :path => '../'
+  pod 'Util_V'
 
-  target 'MultipleWindows_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

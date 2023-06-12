@@ -27,3 +27,5 @@ V, gfh.cynthia@icloud.com
 ## License
 
 MultipleWindows is available under the MIT license. See the LICENSE file for more info.
+
+#不支持多场景

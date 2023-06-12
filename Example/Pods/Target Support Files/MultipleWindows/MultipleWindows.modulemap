@@ -1,0 +1,6 @@
+framework module MultipleWindows {
+  umbrella header "MultipleWindows-umbrella.h"
+
+  export *
+  module * { export * }
+}

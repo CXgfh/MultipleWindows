@@ -1,0 +1,24 @@
+PODS:
+  - MultipleWindows (1.0.0):
+    - Util_V
+  - Util_V (1.0.6)
+
+DEPENDENCIES:
+  - MultipleWindows (from `../`)
+  - Util_V
+
+SPEC REPOS:
+  trunk:
+    - Util_V
+
+EXTERNAL SOURCES:
+  MultipleWindows:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MultipleWindows: d5e7160f140b6d4f818a8d1d96d1cfdf75dba466
+  Util_V: 88dbd393884662fab37d51743acff4dbcc589321
+
+PODFILE CHECKSUM: 06f87d4ef57feac48c09c618271d767574076358
+
+COCOAPODS: 1.12.1

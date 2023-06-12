@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import MultipleWindows
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let frame = CGRect(x: 0, y: self.view.height-100, width: self.view.width, height: 100)
+        MultipleWindows.shared.addWindow(frame: frame, rootViewController: UIViewController(), adsorption: false, animation: nil)
+        
     }
 
     override func didReceiveMemoryWarning() {
